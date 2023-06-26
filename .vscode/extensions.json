@@ -1,3 +1,8 @@
 {
-  "recommendations": ["idleberg.icon-fonts"]
+  "recommendations": [
+    "idleberg.icon-fonts",
+    "formulahendry.auto-close-tag",
+    "ms-vscode.live-server",
+    "figma.figma-vscode-extension"
+  ]
 }
