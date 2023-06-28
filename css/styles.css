@@ -280,8 +280,9 @@ body {
 .product-text {
   letter-spacing: 0.02em;
   color: var(--text-body-address);
+  line-height: 1.5;
 }
 
 .product-title {
-  line-height: 1.5;
+  line-height: 1.2;
 }
