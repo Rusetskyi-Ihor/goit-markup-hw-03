@@ -208,6 +208,11 @@ body {
   justify-content: center;
 }
 
+.team-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
 /** ------FOOTER----- */
 
 .footer {
@@ -228,6 +233,8 @@ body {
 .footer-text {
   flex-shrink: 0;
   color: var(--light);
+  letter-spacing: 0.02em;
+  line-height: 1.5;
 }
 
 /** -----PORTFOLIO----- */
@@ -247,6 +254,11 @@ body {
 }
 
 .product-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   border: 1px solid var(--cornflower, #E7E9FC);
   background: var(--light);
   justify-content: center;
@@ -259,4 +271,8 @@ body {
   background-color: var(--actions);
   color: var(--white-background);
   cursor: pointer;
+}
+
+.header-address {
+  font-style: normal;
 }
