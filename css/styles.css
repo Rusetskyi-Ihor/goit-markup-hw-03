@@ -276,3 +276,12 @@ body {
 .header-address {
   font-style: normal;
 }
+
+.product-text {
+  letter-spacing: 0.02em;
+  color: var(--text-body-address);
+}
+
+.product-title {
+  line-height: 1.5;
+}
