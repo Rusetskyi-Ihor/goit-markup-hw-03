@@ -15,7 +15,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  color: var(--main);
+  color: var(--text-body-address);
   background-color: var(--white-background);
   margin: 0;
 
