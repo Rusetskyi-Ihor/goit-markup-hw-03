@@ -154,11 +154,13 @@ body {
 /** -----HERO----- */
 
 .hero-section {
-background-color: var(--main);
-flex-shrink: 0;
+  background-color: var(--main);
+  flex-shrink: 0;
+  margin: 0 auto;
 }
 
 .hero-title {
+  margin: 0 auto 48px auto;
   color: var(--white-background);
   text-align: center;
   font-size: 56px;
@@ -169,21 +171,29 @@ flex-shrink: 0;
   width: 496px;
   flex-direction: column;
   flex-shrink: 0;
+  padding: 188px 0;
 }
 
 .hero-btn {
+  margin: 0 auto;
   border-radius: 4px;
   background: var(--links-hover-active);
-  box-shadow: 0px 4px 4px 0px, rgba(0, 0, 0, 0.15);
   display: inline-flex;
   padding: 16px 32px;
   align-items: flex-start;
   gap: 10px;
+  height: 56px;
   font-size: 16px;
   font-family: Roboto;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--actions);
 }
 
 /** -----ADVANTAGERS----- */
@@ -225,8 +235,6 @@ flex-shrink: 0;
 /** -----SERVICE----- */
 
 .section-service {
-  width: 1440px;
-  height: 2592px;
   background: var(--white-background);
   
 }
@@ -237,7 +245,40 @@ flex-shrink: 0;
   justify-content: space-between;
 }
 
+/** ------TEAM----- */
+
+.section-team-item {
+  background-color: var(--white-background);
+}
+
+.section-team {
+  background-color: var(--light);
+}
+
+.section-team-list {
+  padding: 72px 0 120px 0;
+  display: flex;
+  justify-content: space-between
+}
+
+.team-title,
+.team-text {
+  display: flex;
+  width: 232px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
 /** ------FOOTER----- */
+
+.footer {
+  background-color: var(--main);
+  width: 1440px;
+  height: 312px;
+  flex-shrink: 0;
+}
 
 .footer-logo {
   color: var(--light);
@@ -247,4 +288,54 @@ flex-shrink: 0;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+
+.footer-text {
+  display: flex;
+  width: 264px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: var(--light);
+}
+
+/** -----PORTFOLIO----- */
+
+.section-product-title {
+  display: none;
+}
+
+.product-btn-list {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 24px;
+  margin-bottom: 75px;
+  margin-top: 93px;
+  margin-left: 427px;
+  margin-right: 427px;
+}
+
+.product-btn-item {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.product-btn {
+  border-radius: 4px;
+  border: 1px solid var(--cornflower, #E7E9FC);
+  background: var(--light);
+  display: flex;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  color: var(--links-hover-active);
+  text-align: center;
+}
+
+.product-btn:hover,
+.product-btn:focus {
+  background-color: var(--actions);
+  color: var(--white-background);
+  cursor: pointer;
 }
