@@ -10,10 +10,14 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="header">
+      <div class="container header-container">
       <nav class="header-navigation">
         <a href="./index.html" class="logo link" 
           >Web<span class="header-logo">Studio</span></a
@@ -35,14 +39,19 @@
           </li>
         </ul>
       </address>
+      </div>
     </header>
-    <main class="hero">
-      <section class="hero-section">
-        <h1 class="hero-title">Effective Solutions for Your Business</h1>
-        <button class="hero-btn" type="button">Order Service</button>
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="hero-container">
+            <h1 class="hero-title">Effective Solutions for Your Business</h1>
+            <div class="hero-button">
+        <button type="button" class="hero-btn">Order Service</button>
+            </div>
       </section>
       <section class="advantagers">
-        <h2 class="visualy-hiden">Advantages</h2>
+        <h2 class="visually-hidden">Advantages</h2>
         <ul class="section-advantagers-list list">
           <li class="lasection-advantagers-item">
             <h3 class="subtitle">Strategy</h3>
@@ -104,6 +113,7 @@
         </ul>
       </section>
       <section class="section-team">
+        <div class="container">
         <h2 class="title">Our Team</h2>
         <ul class="section-team-list list">
           <li class="section-team-item">
@@ -147,6 +157,7 @@
             <p class="team-text text">UI Designer</p>
           </li>
         </ul>
+        </div>
       </section>
     </main>
     <footer class="footer">

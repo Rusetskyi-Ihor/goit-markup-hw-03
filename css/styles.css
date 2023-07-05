@@ -24,15 +24,30 @@ body {
   color: var(--text-body-address);
   background-color: var(--white-background);
   margin: 0;
-
 }
 
-h1, h2, h3, p {
+.container {
+  width: 100%;
+  max-width: 1410px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 2px solid;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-top: 0;
   margin-bottom: 0;
 }
 
-ul {
+ul,
+ol {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
@@ -48,6 +63,23 @@ ul {
   text-decoration: none;
 }
 
+img {
+  display: block;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .text {
   margin-top: 0;
   margin-bottom: 0;
@@ -56,12 +88,11 @@ ul {
 .title {
   color: var(--main);
   font-size: 36px;
-  font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 72px;
   text-transform: capitalize;
 }
 
@@ -86,8 +117,8 @@ ul {
 /** -----HEADER----- */
 
 .header {
-  margin: 0 auto;
-  justify-content: space-between;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-logo {
@@ -131,30 +162,16 @@ ul {
   font-style: normal;
 }
 
-.header-menu-item {
-  margin-right: 40px;
-  margin-left: 76px;
-}
-
-.header-menu-item,
-.header-address-item {
-  margin-right: 40px;
-}
-
-.header .item:last-child {
-  margin-right: 0;
-}
-
 /** -----HERO----- */
 
-.hero-section {
+.hero {
   background-color: var(--main);
   flex-shrink: 0;
-  margin: 0 auto;
+  padding-top: 188px;
+  padding-bottom: 292px;
 }
 
 .hero-title {
-  margin: 0 auto 48px auto;
   color: var(--white-background);
   text-align: center;
   font-size: 56px;
@@ -165,7 +182,6 @@ ul {
 }
 
 .hero-btn {
-  margin: 0 auto;
   background: var(--links-hover-active);
   font-size: 16px;
   font-family: Roboto;
@@ -202,27 +218,14 @@ ul {
   
 }
 
-.section-service-list {
-  justify-content: space-between;
-}
-
 /** ------TEAM----- */
-
-.section-team-item {
-  background-color: var(--white-background);
-}
 
 .section-team {
   background-color: var(--light);
 }
 
-.section-team-list {
-  justify-content: space-between
-}
-
-.team-title,
-.team-text {
-  justify-content: center;
+.section-team-item {
+  background-color: var(--white-background);
 }
 
 .team-text {
@@ -255,13 +258,6 @@ ul {
 }
 
 /** -----PORTFOLIO----- */
-
-.product-btn-list {
-  margin-bottom: 75px;
-  margin-top: 93px;
-  margin-left: 427px;
-  margin-right: 427px;
-}
 
 .product-btn-item {
   font-size: 16px;
