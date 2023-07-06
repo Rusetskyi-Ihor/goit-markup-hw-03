@@ -374,13 +374,6 @@ body {
   border: 1px solid transparent;
 }
 
-.product-text {
-  font-size: 16px;
-  letter-spacing: 0.02em;
-  color: var(--text-body-address);
-  line-height: 1.5;
-}
-
 .product-title {
   text-align: left;
   line-height: 1.2;
@@ -403,3 +396,9 @@ body {
   width: calc((100% - 48px) / 3);
 }
 
+.product-text {
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: var(--text-body-address);
+  line-height: 1.5;
+}
