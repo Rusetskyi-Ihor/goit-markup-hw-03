@@ -91,6 +91,8 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
+  display: inline-block;
+  margin-bottom: 16px
 }
 
 .container {
@@ -369,7 +371,7 @@ body {
   background-color: var(--actions);
   color: var(--white-background);
   cursor: pointer;
-  bottom: 1px solid transparent;
+  border: 1px solid transparent;
 }
 
 .product-text {
