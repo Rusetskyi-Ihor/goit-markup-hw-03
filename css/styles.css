@@ -398,7 +398,7 @@ body {
 }
 
 .product-card-info {
-  padding: 32px 16px;
+  padding: 36px 16px;
   border: 1px solid var(--accent);
   border-top: none;
 }
