@@ -402,3 +402,7 @@ body {
   border: 1px solid var(--accent);
   border-top: none;
 }
+
+.section-product .container {
+  padding: 32px 16px;
+}
