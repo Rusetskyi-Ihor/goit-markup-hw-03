@@ -94,7 +94,6 @@ img {
   text-transform: uppercase;
   margin-right: 76px;
   display: inline-block;
-  margin-bottom: 16px
 }
 
 .container {
@@ -319,7 +318,6 @@ body {
 
 .footer-logo {
   display: inline-block;
-  margin-bottom: 16px;
   color: var(--light);
   font-size: 18px;
   font-family: "Raleway", sans-serif;
@@ -334,6 +332,10 @@ body {
   color: var(--light);
   letter-spacing: 0.02em;
   line-height: 1.5;
+  margin-bottom: 16px;
+}
+
+.footer .logo {
   margin-bottom: 16px;
 }
 
