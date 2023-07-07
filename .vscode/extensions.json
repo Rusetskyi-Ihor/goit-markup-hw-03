@@ -3,6 +3,7 @@
     "idleberg.icon-fonts",
     "formulahendry.auto-close-tag",
     "ms-vscode.live-server",
-    "figma.figma-vscode-extension"
+    "figma.figma-vscode-extension",
+    "github.vscode-pull-request-github"
   ]
 }
