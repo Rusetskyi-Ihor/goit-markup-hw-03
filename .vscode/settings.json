@@ -1,3 +1,7 @@
 {
-    "figma.autocompleteProperties": false
+    "figma.autocompleteProperties": false,
+    "cSpell.words": [
+        "advantagers"
+    ],
+    "liveServer.settings.port": 5501
 }
